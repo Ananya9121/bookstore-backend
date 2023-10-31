@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "4faf5959-024b-44d6-89d4-806f05cc796f",
+		"name": "BookStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20611485",
+		"_collection_link": "https://www.postman.com/joint-operations-explorer-55861644/workspace/personal-projects/collection/20611485-4faf5959-024b-44d6-89d4-806f05cc796f?action=share&source=collection_link&creator=20611485"
+	},
+	"item": [
+		{
+			"name": "create Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"newData1\",\r\n    \"author\": \"Hello\",\r\n    \"summary\": \"new\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bookstore-93f2.onrender.com/bookStore/",
+					"protocol": "https",
+					"host": [
+						"bookstore-93f2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"bookStore",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bookstore-93f2.onrender.com//bookStore",
+					"protocol": "https",
+					"host": [
+						"bookstore-93f2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"",
+						"bookStore"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bookstore-93f2.onrender.com/bookStore/6540d8c6554f1cb24366e8b4",
+					"protocol": "https",
+					"host": [
+						"bookstore-93f2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"bookStore",
+						"6540d8c6554f1cb24366e8b4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://bookstore-93f2.onrender.com/bookStore/6540d8c6554f1cb24366e8b4",
+					"protocol": "https",
+					"host": [
+						"bookstore-93f2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"bookStore",
+						"6540d8c6554f1cb24366e8b4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"dataxdcfgvbhj\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bookstore-93f2.onrender.com/bookStore/6540d8c6554f1cb24366e8b4",
+					"protocol": "https",
+					"host": [
+						"bookstore-93f2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"bookStore",
+						"6540d8c6554f1cb24366e8b4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
