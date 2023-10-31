@@ -11,6 +11,8 @@ Command: npm start
 ------------------API endpoints and their usage----------------------
 
 1. Create a new book
+
+
 URL: /bookStore/books
 Method: POST
 Request Body: {
@@ -27,6 +29,8 @@ Response: {
 }
 
 2. Get all books
+
+
 URL: /bookStore
 Method: GET
 Response:[
@@ -47,6 +51,8 @@ Response:[
 ]
 
 3. Get a specific book by ID
+
+
 URL: /bookStore/:id
 Method: GET
 Request: /bookStore/653fea9d23cd0f8964be8546
@@ -59,6 +65,8 @@ Response: {
     }
 
 4. Update a book's details
+
+
 URL: /bookStore/:id
 Method: PUT
 Request:  /bookStore/653fea9d23cd0f8964be8546
@@ -76,6 +84,8 @@ Response: {
     }
 
 5. Delete a book
+
+
 URL: /bookStore/:id
 Method: DELETE
 Request:  /bookStore/653fea9d23cd0f8964be8546
